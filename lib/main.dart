@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
               alignment: Alignment.center,
               child: ElevatedButton(
                 onPressed: () {
-                  var url = 'http://flutter.dev';
+                  var url = 'https://github.com/SharovEgor/lab_4';
                   _launchUrl('$url');
                 },
                 child: Text('перейти на гит'),
